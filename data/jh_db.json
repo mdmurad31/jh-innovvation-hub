@@ -1,0 +1,2775 @@
+{
+  "problems": [
+    {
+      "id": "JH-2026-00124",
+      "title": "Monsoon Inundation & Flash Floodwater Ingress at Govt Middle School Bundu",
+      "description": "During every monsoon downpour, flash flood runoff from the nearby Subarnarekha tributary surges directly into the Government Middle School Bundu campus. Classrooms and the kitchen shed submerge in 2.5 feet of stagnant muddy water. School operations halt for 18-22 instructional days each year, posing acute dengue and electrical hazards to 500 tribal boys and girls.",
+      "category": "Education",
+      "location": {
+        "district": "Ranchi",
+        "block": "Bundu",
+        "villageOrWard": "Ward 4, Bundu Nagar",
+        "landmark": "Near Bundu Block Development Office & Subarnarekha Tributary",
+        "latitude": 23.1812,
+        "longitude": 85.5849
+      },
+      "evidence": [
+        {
+          "id": "ev-1",
+          "type": "image",
+          "fileName": "bundu_school_monsoon_inundation.jpg",
+          "url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=600&auto=format&fit=crop&q=80",
+          "caption": "Classroom corridor submerged under 2.5 feet of flash stream runoff",
+          "uploadedAt": "2026-08-14T09:30:00Z"
+        },
+        {
+          "id": "ev-2",
+          "type": "image",
+          "fileName": "bundu_school_kitchen_waterlogging.jpg",
+          "url": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&auto=format&fit=crop&q=80",
+          "caption": "Mid-day meal ration store inundated by muddy water ingress",
+          "uploadedAt": "2026-08-14T09:32:00Z"
+        }
+      ],
+      "affectedPeopleCount": 500,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 24,
+      "status": "ASSIGNED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Ramesh Munda",
+      "submitterPhone": "+91 94311 02841",
+      "submittedAt": "2026-08-14T09:35:00Z",
+      "isGoldenDemo": true,
+      "aiAnalysis": {
+        "category": "Education",
+        "subcategory": "School Water Infrastructure & Disaster Resilience",
+        "summary": "Critical flash monsoon runoff ingress at Govt Middle School Bundu campus. Inundates classrooms to 2.5 ft, cutting off 500 students and halting mid-day meal operations.",
+        "severity": 9,
+        "urgency": 9,
+        "estimatedAffectedPeople": 500,
+        "keywords": [
+          "Monsoon Inundation",
+          "Flood Early Warning",
+          "Ultrasonic Water Level Sensor",
+          "IoT Telemetry",
+          "Retention Bypass Drainage"
+        ],
+        "requiredSkills": [
+          "Hydrological Modeling",
+          "IoT Sensor Firmware",
+          "Civil Drainage Design",
+          "GIS Watershed Topography"
+        ],
+        "requiredTechnologies": [
+          "Solar Ultrasonic Level Gauges",
+          "LoRaWAN Edge Gateway",
+          "Automated Siren & Cloud Alerting",
+          "Hydro-dynamic Diverter Flumes"
+        ],
+        "possibleGovernmentDepartment": "Department of School Education & Literacy / Water Resources Dept Jharkhand",
+        "problemType": "INNOVATION",
+        "confidence": 0.96,
+        "rootCause": "Absence of graded stormwater bypass channel coupled with low-lying compound grading directly aligned with the natural micro-watershed tributary discharge.",
+        "affectedPopulation": "500 enrolled tribal primary/middle students, 14 school staff, and neighboring 120 households",
+        "locationExpertise": "Ranchi district Subarnarekha upper catchment drainage profile",
+        "solutionDomain": "Integrated IoT ultrasonic hydrological telemetry, automated solar cloud early-warning alarm node, and civil retention-bypass drainage conduits.",
+        "expectedOutcome": "Zero school closure days, 75% reduction in floodwater ingress events (from 12/yr to 3/yr during peak cloudbursts), and real-time SMS/siren alerts 45 minutes prior to flood surge.",
+        "analyzedAt": "2026-08-14T09:37:00Z",
+        "provider": "gemini"
+      },
+      "priority": {
+        "severityComponent": 30,
+        "populationComponent": 22,
+        "urgencyComponent": 18,
+        "geographicComponent": 12,
+        "evidenceComponent": 5,
+        "totalScore": 87,
+        "level": "CRITICAL",
+        "reasons": [
+          "Acute monsoon structural floodwater ingress threatening primary school safety",
+          "Directly affects 500 tribal children, halting mid-day meal & 18 instruction days/yr",
+          "Immediate emergency urgency: recurring flash stream swells during peak monsoon",
+          "Verified geo-coordinates on NH-33 Subarnarekha catchment tributary",
+          "Multiple photographic proof documents school building inundated to 2.5 feet"
+        ]
+      },
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentId": "dept-education",
+        "departmentName": "Department of School Education & Literacy Jharkhand",
+        "notes": "Priority validated at 87/100. High-risk school hazard requiring engineering & IoT innovation. Routed to HEI matching for rapid prototype development.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-15T11:00:00Z"
+      },
+      "assignedUniversityId": "univ-bit-mesra",
+      "assignedUniversityName": "Birla Institute of Technology (BIT) Mesra",
+      "assignedDepartmentName": "Civil & Environmental Engineering and Remote Sensing",
+      "projectId": "proj-golden-flood-01"
+    },
+    {
+      "id": "JH-2026-00142",
+      "title": "Monsoon Flash Inundation at Upgraded High School Tamar",
+      "description": "Stormwater overflow from hill slopes floods the school ground and kitchen store. Water stagnation lasts 4 days per heavy rain spell.",
+      "category": "Education",
+      "location": {
+        "district": "Ranchi",
+        "block": "Tamar",
+        "villageOrWard": "Tamar Bazar",
+        "latitude": 23.0542,
+        "longitude": 85.6421
+      },
+      "evidence": [
+        {
+          "id": "ev-tamar",
+          "type": "image",
+          "fileName": "tamar_water.jpg",
+          "url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=500",
+          "uploadedAt": "2026-08-14"
+        }
+      ],
+      "affectedPeopleCount": 420,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "High (Weeks)",
+      "durationMonths": 18,
+      "status": "DUPLICATE",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Mangal Singh Munda",
+      "submittedAt": "2026-08-14T14:10:00Z",
+      "masterClusterId": "cluster-subarnarekha-01",
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 15,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 73,
+        "level": "HIGH",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Village/neighborhood scale impact (420 residents)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Ranchi district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00168",
+      "title": "Runoff Ponding at Kasturba Gandhi Balika Vidyalaya Sonahatu",
+      "description": "Excessive rainwater runoff from unpaved highway access enters girls hostel boundary wall causing acute dampness and hygiene risk.",
+      "category": "Education",
+      "location": {
+        "district": "Ranchi",
+        "block": "Sonahatu",
+        "villageOrWard": "Sonahatu Block HQ",
+        "latitude": 23.2104,
+        "longitude": 85.7198
+      },
+      "evidence": [
+        {
+          "id": "ev-sonahatu",
+          "type": "image",
+          "fileName": "sonahatu_water.jpg",
+          "url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=500",
+          "uploadedAt": "2026-08-15"
+        }
+      ],
+      "affectedPeopleCount": 380,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "High (Weeks)",
+      "durationMonths": 12,
+      "status": "DUPLICATE",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Sita Devi",
+      "submittedAt": "2026-08-15T08:20:00Z",
+      "masterClusterId": "cluster-subarnarekha-01",
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 15,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 73,
+        "level": "HIGH",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Village/neighborhood scale impact (380 residents)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Ranchi district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00085",
+      "title": "Severe Arsenic Contamination in Drinking Borewells of Ranishwar Block",
+      "description": "Laboratory testing revealed arsenic levels exceeding 0.08 mg/L (WHO limit 0.01 mg/L) across 14 community handpumps. Multiple residents show keratosis skin lesions.",
+      "category": "Water",
+      "location": {
+        "district": "Dumka",
+        "block": "Ranishwar",
+        "villageOrWard": "Mohanpur & Ranishwar Panchayats",
+        "latitude": 24.0321,
+        "longitude": 87.4125
+      },
+      "evidence": [
+        {
+          "id": "ev-dumka",
+          "type": "document",
+          "fileName": "water_test_lab_report.pdf",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "caption": "State Public Health Engineering Lab Report",
+          "uploadedAt": "2026-07-20"
+        }
+      ],
+      "affectedPeopleCount": 4200,
+      "frequency": "Continuous",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 36,
+      "status": "ASSIGNED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Dr. Sunil Soren",
+      "submittedAt": "2026-07-20T11:00:00Z",
+      "assignedUniversityId": "univ-iit-ism-dhanbad",
+      "assignedUniversityName": "IIT (ISM) Dhanbad",
+      "assignedDepartmentName": "Environmental Science & Chemical Engineering",
+      "priority": {
+        "severityComponent": 30,
+        "populationComponent": 24,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 8,
+        "totalScore": 95,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (10/10)",
+          "Large-scale regional community impact (4,200 people)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Dumka district boundary",
+          "Verified photographic/document evidence attached (2 attachments)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00092",
+      "title": "Tomato & Vegetable Post-Harvest Spoilage Due to Lack of Decentralized Cold Storage",
+      "description": "Over 600 smallholder tribal farmers in Khunti face distress sales at ₹2/kg during peak harvest. Lack of local cold storage leads to 40% tomato rot within 48 hours.",
+      "category": "Agriculture",
+      "location": {
+        "district": "Khunti",
+        "block": "Murhu",
+        "villageOrWard": "Murhu Weekly Haat",
+        "latitude": 22.9812,
+        "longitude": 85.2981
+      },
+      "evidence": [
+        {
+          "id": "ev-khunti",
+          "type": "image",
+          "fileName": "tomato_spoilage.jpg",
+          "url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500",
+          "uploadedAt": "2026-07-22"
+        }
+      ],
+      "affectedPeopleCount": 1800,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "High (Weeks)",
+      "durationMonths": 48,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Budhram Bhengra",
+      "submittedAt": "2026-07-22T09:15:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Department of Agriculture & Farmers Welfare Jharkhand",
+        "notes": "High economic loss issue. Requires decentralized solar cold-storage unit innovation. Routing to NIT Jamshedpur and BAU Ranchi.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-07-24T10:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 21,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 79,
+        "level": "HIGH",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Significant regional impact affecting 1,800 people",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Khunti district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00104",
+      "title": "Human-Elephant Conflict & Crop Raiding in Forest Fringe Villages",
+      "description": "Wild elephant herds crossing migration corridor regularly destroy standing paddy and mud dwellings in 8 forest fringe villages. Lack of early warning causes tragic human casualties.",
+      "category": "Disaster Management",
+      "location": {
+        "district": "Hazaribagh",
+        "block": "Churchu",
+        "villageOrWard": "Churchu Forest Buffer",
+        "latitude": 23.8912,
+        "longitude": 85.4912
+      },
+      "evidence": [
+        {
+          "id": "ev-hazaribagh",
+          "type": "image",
+          "fileName": "elephant_damage.jpg",
+          "url": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=500",
+          "uploadedAt": "2026-08-01"
+        }
+      ],
+      "affectedPeopleCount": 3100,
+      "frequency": "Weekly",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 60,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Birsa Marandi",
+      "submittedAt": "2026-08-01T15:40:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Department of Forest, Environment and Climate Change Jharkhand",
+        "notes": "Validated for AI seismic vibration and thermal camera perimeter alert prototype.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-03T11:30:00Z"
+      },
+      "priority": {
+        "severityComponent": 27,
+        "populationComponent": 23,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 88,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (9/10)",
+          "Large-scale regional community impact (3,100 people)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Hazaribagh district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00045",
+      "title": "Broken High-Mast Streetlight & Cable Burn at Doranda Chowk",
+      "description": "The municipal high-mast illumination tower has been non-functional for 3 weeks following a transformer fuse blowout. Causes traffic confusion at junction.",
+      "category": "Urban Infrastructure",
+      "location": {
+        "district": "Ranchi",
+        "block": "Ranchi Urban",
+        "villageOrWard": "Doranda Ward 28",
+        "latitude": 23.3321,
+        "longitude": 85.3214
+      },
+      "evidence": [
+        {
+          "id": "ev-doranda",
+          "type": "image",
+          "fileName": "doranda_light.jpg",
+          "url": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=500",
+          "uploadedAt": "2026-06-10"
+        }
+      ],
+      "affectedPeopleCount": 5000,
+      "frequency": "Daily",
+      "urgency": "Low",
+      "durationMonths": 1,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Manish Verma",
+      "submittedAt": "2026-06-10T18:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "GOVERNMENT_SERVICE",
+        "departmentName": "Ranchi Municipal Corporation (RMC) Electrical Wing",
+        "notes": "Direct municipal repair requisition. Scheduled for electrical contractor fuse replacement. No academic research required.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-06-11T09:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 12,
+        "populationComponent": 25,
+        "urgencyComponent": 6,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 61,
+        "level": "MEDIUM",
+        "reasons": [
+          "Standard operational severity level (4/10)",
+          "Mass community impact affecting over 5,000 residents (5,000)",
+          "Low/routine urgency: regular seasonal or scheduled maintenance",
+          "Verified geo-tagged location within Ranchi district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00177",
+      "title": "Acute Ground Fluoride & Dental Fluorosis in Daltonganj Rural Schools",
+      "description": "Deep tube wells in 12 villages register fluoride concentrations of 3.2 mg/L (limit 1.5 mg/L). Over 250 school children exhibit skeletal and dental fluorosis.",
+      "category": "Healthcare",
+      "location": {
+        "district": "Palamu",
+        "block": "Daltonganj",
+        "villageOrWard": "Chainpur Block",
+        "latitude": 24.0192,
+        "longitude": 84.0621
+      },
+      "evidence": [
+        {
+          "id": "ev-palamu",
+          "type": "document",
+          "fileName": "dental_fluorosis_survey.pdf",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "uploadedAt": "2026-08-16"
+        }
+      ],
+      "affectedPeopleCount": 6500,
+      "frequency": "Continuous",
+      "urgency": "High (Weeks)",
+      "durationMonths": 72,
+      "status": "UNDER_REVIEW",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Sanjay Pandey",
+      "submittedAt": "2026-08-16T10:30:00Z",
+      "priority": {
+        "severityComponent": 27,
+        "populationComponent": 25,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 86,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (9/10)",
+          "Mass community impact affecting over 5,000 residents (6,500)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Palamu district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00182",
+      "title": "Methane Gas Seepage and Underground Smouldering in Jharia Coal Fringe Habitations",
+      "description": "Toxic CO and methane fumes seep through cracked ground in bastis adjacent to opencast pits. Surface ground temperatures exceed 55°C, risking sudden subsidence.",
+      "category": "Disaster Management",
+      "location": {
+        "district": "Dhanbad",
+        "block": "Jharia",
+        "villageOrWard": "Kujama Colliery Settlement",
+        "latitude": 23.7421,
+        "longitude": 86.4198
+      },
+      "evidence": [
+        {
+          "id": "ev-jharia",
+          "type": "image",
+          "fileName": "jharia_smoke.jpg",
+          "url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=500",
+          "uploadedAt": "2026-08-18"
+        }
+      ],
+      "affectedPeopleCount": 8900,
+      "frequency": "Continuous",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 120,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Shyam Sundar Rawani",
+      "submittedAt": "2026-08-18T16:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "RESEARCH",
+        "departmentName": "Department of Mines & Geology / BCCL Fire Mitigation Task Force",
+        "notes": "High risk hazard requiring underground acoustic sensing and thermal drone surveys.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-19T11:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 30,
+        "populationComponent": 25,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 93,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (10/10)",
+          "Mass community impact affecting over 5,000 residents (8,900)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Dhanbad district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00195",
+      "title": "Finger Millet (Ragi) Blast Fungus Epidemic in Tribal Upland Farms",
+      "description": "Leaf blast and neck blast fungal infections are wiping out indigenous finger millet crops across 15 villages in Gumla. Smallholder farmers lack diagnostic tools.",
+      "category": "Agriculture",
+      "location": {
+        "district": "Gumla",
+        "block": "Raidih",
+        "villageOrWard": "Raidih Tribal Belt",
+        "latitude": 23.0121,
+        "longitude": 84.4981
+      },
+      "evidence": [
+        {
+          "id": "ev-gumla",
+          "type": "image",
+          "fileName": "millet_blast.jpg",
+          "url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500",
+          "uploadedAt": "2026-08-20"
+        }
+      ],
+      "affectedPeopleCount": 1400,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "High (Weeks)",
+      "durationMonths": 2,
+      "status": "UNDER_REVIEW",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Anupa Kispotta",
+      "submittedAt": "2026-08-20T14:15:00Z",
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 21,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 79,
+        "level": "HIGH",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Significant regional impact affecting 1,400 people",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Gumla district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00201",
+      "title": "Lack of Cold Chain Transport for Remote Rural Vaccines in Latehar",
+      "description": "Auxiliary Nurse Midwives (ANMs) carry vaccines in melting ice flasks over 4 hours on foot to remote forest hamlets in Latehar. Temperature rises lead to spoiled measles and BCG vials.",
+      "category": "Healthcare",
+      "location": {
+        "district": "Latehar",
+        "block": "Mahuadanr",
+        "villageOrWard": "Chetma Forest Gram",
+        "latitude": 23.4121,
+        "longitude": 84.1121
+      },
+      "evidence": [
+        {
+          "id": "ev-latehar",
+          "type": "image",
+          "fileName": "vaccine_flask.jpg",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "uploadedAt": "2026-08-22"
+        }
+      ],
+      "affectedPeopleCount": 2200,
+      "frequency": "Weekly",
+      "urgency": "High (Weeks)",
+      "durationMonths": 24,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Sister Teresa Xalxo",
+      "submittedAt": "2026-08-22T10:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Department of Health & Family Welfare Jharkhand",
+        "notes": "Requires portable solar-Peltier vaccine carrier innovation. Routing to NIT Jamshedpur & AIIMS Deoghar.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-23T11:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 27,
+        "populationComponent": 22,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 83,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (9/10)",
+          "Significant regional impact affecting 2,200 people",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Latehar district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00210",
+      "title": "Severe Fluoride & Turbidity in School Handpumps of Deoghar Border Blocks",
+      "description": "Handpump water in 8 primary schools tests with excessive fluoride and red-mud turbidity. Students suffer stomach ailments and dental discoloration.",
+      "category": "Water",
+      "location": {
+        "district": "Deoghar",
+        "block": "Madhupur",
+        "villageOrWard": "Pathrol Panchayat",
+        "latitude": 24.2612,
+        "longitude": 86.6421
+      },
+      "evidence": [
+        {
+          "id": "ev-deoghar",
+          "type": "image",
+          "fileName": "red_water.jpg",
+          "url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=500",
+          "uploadedAt": "2026-08-24"
+        }
+      ],
+      "affectedPeopleCount": 1600,
+      "frequency": "Daily",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 15,
+      "status": "ASSIGNED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Rakesh Yadav",
+      "submittedAt": "2026-08-24T09:00:00Z",
+      "assignedUniversityId": "univ-aiims-deoghar",
+      "assignedUniversityName": "AIIMS Deoghar MedTech & Community Medicine",
+      "priority": {
+        "severityComponent": 27,
+        "populationComponent": 21,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 86,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (9/10)",
+          "Significant regional impact affecting 1,600 people",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Deoghar district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00220",
+      "title": "Industrial Chemical Runoff & Turbidity in Kharkai River Basin",
+      "description": "Industrial effluent and untreated urban drainage enter the Kharkai-Subarnarekha basin, raising BOD and heavy metal levels affecting 7,200 downstream fishing families.",
+      "category": "Environment",
+      "location": {
+        "district": "East Singhbhum",
+        "block": "Golmuri-cum-Jugsalai",
+        "villageOrWard": "Bagbera Colony",
+        "latitude": 22.7712,
+        "longitude": 86.1821
+      },
+      "evidence": [
+        {
+          "id": "ev-es-01",
+          "type": "image",
+          "fileName": "kharkai_water.jpg",
+          "url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=500",
+          "uploadedAt": "2026-08-25"
+        }
+      ],
+      "affectedPeopleCount": 7200,
+      "frequency": "Continuous",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 48,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Rabin Mahto",
+      "submittedAt": "2026-08-25T11:20:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "State Pollution Control Board & Dept of Environment Jharkhand",
+        "notes": "High priority riparian eco-zone. Assigned for bio-remediation floating wetland innovation to NIT Jamshedpur.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-26T14:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 27,
+        "populationComponent": 25,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 90,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (9/10)",
+          "Mass community impact affecting over 5,000 residents (7,200)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within East Singhbhum district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00225",
+      "title": "Fly Ash Particulate Air Dispersal & Respiratory Distress in Steel Corridor",
+      "description": "Uncovered fly ash dykes and dry transport trucks disperse fine silica and heavy metal dust across 6 schools and surrounding colonies during summer winds.",
+      "category": "Environment",
+      "location": {
+        "district": "Bokaro",
+        "block": "Chas",
+        "villageOrWard": "Chas Ward 14",
+        "latitude": 23.6391,
+        "longitude": 86.1729
+      },
+      "evidence": [
+        {
+          "id": "ev-bokaro-01",
+          "type": "image",
+          "fileName": "flyash_dust.jpg",
+          "url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=500",
+          "uploadedAt": "2026-08-26"
+        }
+      ],
+      "affectedPeopleCount": 5400,
+      "frequency": "Daily",
+      "urgency": "High (Weeks)",
+      "durationMonths": 36,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Poonam Devi",
+      "submittedAt": "2026-08-26T10:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "RESEARCH",
+        "departmentName": "Department of Industries & Environment Jharkhand",
+        "notes": "Validated for polymer dust suppression crusting agent research with BIT Sindri & IIT ISM Dhanbad.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-27T09:30:00Z"
+      },
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 25,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 83,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Mass community impact affecting over 5,000 residents (5,400)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Bokaro district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00230",
+      "title": "Mica Scrap Sorting Ergonomic Hazards & Fine Mineral Dust Inhalation",
+      "description": "Over 850 artisanal mica pickers, predominantly women, suffer chronic musculoskeletal strain and pulmonary silica exposure due to lack of semi-mechanized sorting jigs.",
+      "category": "Healthcare",
+      "location": {
+        "district": "Giridih",
+        "block": "Tisri",
+        "villageOrWard": "Tisri Forest Fringe",
+        "latitude": 24.5612,
+        "longitude": 86.0612
+      },
+      "evidence": [
+        {
+          "id": "ev-giridih-01",
+          "type": "image",
+          "fileName": "mica_workers.jpg",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "uploadedAt": "2026-08-27"
+        }
+      ],
+      "affectedPeopleCount": 2900,
+      "frequency": "Daily",
+      "urgency": "High (Weeks)",
+      "durationMonths": 60,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Sita Hansda",
+      "submittedAt": "2026-08-27T12:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Department of Labour, Employment & Training Jharkhand",
+        "notes": "Requires ergonomic sorting sieve workstation prototype. Routing to Vinoba Bhave University & BIT Mesra.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-28T10:15:00Z"
+      },
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 23,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 81,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Large-scale regional community impact (2,900 people)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Giridih district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00235",
+      "title": "Pilgrim Organic Waste Stagnation & Damodar River Siltation at Rajrappa",
+      "description": "Daily pilgrim influx generates 4 tonnes of ceremonial flower, coconut, and food waste entering the Bhairavi-Damodar confluence without decentralized composting.",
+      "category": "Waste Management",
+      "location": {
+        "district": "Ramgarh",
+        "block": "Chitarpur",
+        "villageOrWard": "Rajrappa Mandir Complex",
+        "latitude": 23.6312,
+        "longitude": 85.7121
+      },
+      "evidence": [
+        {
+          "id": "ev-ramgarh-01",
+          "type": "image",
+          "fileName": "rajrappa_waste.jpg",
+          "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=500",
+          "uploadedAt": "2026-08-28"
+        }
+      ],
+      "affectedPeopleCount": 4800,
+      "frequency": "Daily",
+      "urgency": "High (Weeks)",
+      "durationMonths": 24,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Mukesh Panda",
+      "submittedAt": "2026-08-28T14:30:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Urban Development & Housing Department / Tourism Wing",
+        "notes": "Validated for rapid microbial enzyme accelerated composting & bio-briquette unit prototype.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-29T11:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 21,
+        "populationComponent": 24,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 79,
+        "level": "HIGH",
+        "reasons": [
+          "Moderate community severity level (7/10)",
+          "Large-scale regional community impact (4,800 people)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Ramgarh district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00240",
+      "title": "Severe Child Malnutrition & Falciparum Malaria Outbreak in Saranda Deep Forest",
+      "description": "Inaccessible Ho tribal villages in dense Sal forest register 48% severe acute malnutrition among children under 5 and acute drug-resistant malaria during post-monsoon.",
+      "category": "Healthcare",
+      "location": {
+        "district": "West Singhbhum",
+        "block": "Manoharpur",
+        "villageOrWard": "Digha Forest Tola",
+        "latitude": 22.2512,
+        "longitude": 85.2012
+      },
+      "evidence": [
+        {
+          "id": "ev-ws-01",
+          "type": "document",
+          "fileName": "saranda_health_survey.pdf",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "uploadedAt": "2026-08-29"
+        }
+      ],
+      "affectedPeopleCount": 3800,
+      "frequency": "Continuous",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 36,
+      "status": "ASSIGNED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Dr. Mangal Purty",
+      "submittedAt": "2026-08-29T09:15:00Z",
+      "assignedUniversityId": "univ-kolhan",
+      "assignedUniversityName": "Kolhan University Chaibasa & AIIMS Deoghar",
+      "priority": {
+        "severityComponent": 30,
+        "populationComponent": 24,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 92,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (10/10)",
+          "Large-scale regional community impact (3,800 people)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within West Singhbhum district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00245",
+      "title": "Lac (Kusmi) Processing Spoilage & Thermal Loss for Women Tribal SHGs",
+      "description": "Over 400 women lac cultivators in Simdega lose 35% crop value due to fungal molding in unventilated mud barns before reaching the processing cluster.",
+      "category": "Rural Livelihood",
+      "location": {
+        "district": "Simdega",
+        "block": "Kolebira",
+        "villageOrWard": "Kolebira Weekly Haat",
+        "latitude": 22.7012,
+        "longitude": 84.7012
+      },
+      "evidence": [
+        {
+          "id": "ev-simdega-01",
+          "type": "image",
+          "fileName": "lac_crop.jpg",
+          "url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500",
+          "uploadedAt": "2026-08-30"
+        }
+      ],
+      "affectedPeopleCount": 1900,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "High (Weeks)",
+      "durationMonths": 18,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Shanti Baa",
+      "submittedAt": "2026-08-30T11:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Department of Agriculture & Farmers Welfare / Tribal Cooperative",
+        "notes": "Validated for solar forced-convection lac drying and grading chamber prototype. Routing to BAU Ranchi & Simdega College.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-08-31T10:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 21,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 79,
+        "level": "HIGH",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Significant regional impact affecting 1,900 people",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Simdega district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00250",
+      "title": "Severe Summer Groundwater Table Collapse & Parched Paddy in Kanhar Basin",
+      "description": "Borewells dry up by February across 18 villages in Garhwa plateau. Unlined hill runoff results in 90% monsoon water drainage into Sone river within 72 hours.",
+      "category": "Water",
+      "location": {
+        "district": "Garhwa",
+        "block": "Bhandaria",
+        "villageOrWard": "Bhandaria Plateau",
+        "latitude": 23.9512,
+        "longitude": 83.5812
+      },
+      "evidence": [
+        {
+          "id": "ev-garhwa-01",
+          "type": "image",
+          "fileName": "dry_well.jpg",
+          "url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=500",
+          "uploadedAt": "2026-08-31"
+        }
+      ],
+      "affectedPeopleCount": 6100,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 60,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Vikramaditya Shukla",
+      "submittedAt": "2026-08-31T15:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Water Resources Department & Minor Irrigation Division",
+        "notes": "High drought vulnerability zone. Validated for sub-surface check dams and GIS hydrological recharge mapping with BIT Mesra.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-09-01T09:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 27,
+        "populationComponent": 25,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 90,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (9/10)",
+          "Mass community impact affecting over 5,000 residents (6,100)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Garhwa district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00255",
+      "title": "Perishable Tomato & Papaya Glut Wastage in Remote Tribal Haats of Chatra",
+      "description": "Chatra upland farmers harvest 25 tonnes of tomatoes daily in January-February but lack dehydration or pulp processing, selling at loss of ₹1.5/kg.",
+      "category": "Agriculture",
+      "location": {
+        "district": "Chatra",
+        "block": "Itkhori",
+        "villageOrWard": "Itkhori Block Mandi",
+        "latitude": 24.2812,
+        "longitude": 85.1512
+      },
+      "evidence": [
+        {
+          "id": "ev-chatra-01",
+          "type": "image",
+          "fileName": "tomato_glut.jpg",
+          "url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500",
+          "uploadedAt": "2026-09-01"
+        }
+      ],
+      "affectedPeopleCount": 2400,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "High (Weeks)",
+      "durationMonths": 24,
+      "status": "UNDER_REVIEW",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Ramanand Dangi",
+      "submittedAt": "2026-09-01T10:30:00Z",
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 22,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 80,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Significant regional impact affecting 2,400 people",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Chatra district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00260",
+      "title": "Excessive Fluoride & Blue-Green Algal Blooms in Tilaiya Catchment Reservoirs",
+      "description": "Surface water supplied from Tilaiya tributary intakes shows elevated microcystin algal toxins and 2.8 mg/L fluoride in nearby village supply handpumps.",
+      "category": "Water",
+      "location": {
+        "district": "Koderma",
+        "block": "Jainagar",
+        "villageOrWard": "Tilaiya Dam Catchment",
+        "latitude": 24.3212,
+        "longitude": 85.5312
+      },
+      "evidence": [
+        {
+          "id": "ev-koderma-01",
+          "type": "document",
+          "fileName": "tilaiya_water_test.pdf",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "uploadedAt": "2026-09-01"
+        }
+      ],
+      "affectedPeopleCount": 3300,
+      "frequency": "Continuous",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 18,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Alok Ranjan Barnwal",
+      "submittedAt": "2026-09-01T16:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "RESEARCH",
+        "departmentName": "Drinking Water and Sanitation Department (DWSD)",
+        "notes": "Assigned to Vinoba Bhave University & IIT ISM Dhanbad for multi-stage coagulant and solar UV oxidation trial.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-09-02T11:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 27,
+        "populationComponent": 23,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 88,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (9/10)",
+          "Large-scale regional community impact (3,300 people)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Koderma district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00265",
+      "title": "Bauxite Heavy Haulage Road Degradation & Infrasound Dust Pollution",
+      "description": "Continuous transit of 40-ton ore trucks on rural state highways cracks masonry culverts and fills roadside primary school classrooms with red bauxite dust.",
+      "category": "Urban Infrastructure",
+      "location": {
+        "district": "Lohardaga",
+        "block": "Kisko",
+        "villageOrWard": "Kisko Ghati Corridor",
+        "latitude": 23.5112,
+        "longitude": 84.6212
+      },
+      "evidence": [
+        {
+          "id": "ev-lohardaga-01",
+          "type": "image",
+          "fileName": "road_wear.jpg",
+          "url": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=500",
+          "uploadedAt": "2026-09-02"
+        }
+      ],
+      "affectedPeopleCount": 4100,
+      "frequency": "Daily",
+      "urgency": "High (Weeks)",
+      "durationMonths": 36,
+      "status": "UNDER_REVIEW",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Birendra Bhagat",
+      "submittedAt": "2026-09-02T14:00:00Z",
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 24,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 82,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Large-scale regional community impact (4,100 people)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Lohardaga district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00270",
+      "title": "Heavy Metal Effluent in Adityapur Industrial Drainage & Ground Seepage",
+      "description": "Untreated electroplating and metal rinse waters seep into shallow aquifers of 12 bastis surrounding Adityapur Industrial Area, exceeding hexavalent chromium norms.",
+      "category": "Environment",
+      "location": {
+        "district": "Saraikela Kharsawan",
+        "block": "Gamharia",
+        "villageOrWard": "Adityapur Phase 4",
+        "latitude": 22.8012,
+        "longitude": 86.1312
+      },
+      "evidence": [
+        {
+          "id": "ev-sk-01",
+          "type": "document",
+          "fileName": "adityapur_effluent.pdf",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "uploadedAt": "2026-09-02"
+        }
+      ],
+      "affectedPeopleCount": 8200,
+      "frequency": "Continuous",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 72,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Prakash Chandra Mahato",
+      "submittedAt": "2026-09-02T17:30:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "State Pollution Control Board & AIADA Industrial Authority",
+        "notes": "High priority industrial hub. Routed to NIT Jamshedpur for zero-liquid discharge electro-coagulation prototype.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-09-03T10:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 30,
+        "populationComponent": 25,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 93,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (10/10)",
+          "Mass community impact affecting over 5,000 residents (8,200)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Saraikela Kharsawan district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00275",
+      "title": "Hyper-Acidic Soil (pH 4.4) Causing Stunted Paddy & Iron Toxicity",
+      "description": "Over 1,200 smallholder farmers in Jamtara uplands suffer 45% paddy yield loss due to severe soil acidity and aluminum/iron toxicity under low organic matter conditions.",
+      "category": "Agriculture",
+      "location": {
+        "district": "Jamtara",
+        "block": "Narayanpur",
+        "villageOrWard": "Narayanpur Agricultural Belt",
+        "latitude": 24.0112,
+        "longitude": 86.7212
+      },
+      "evidence": [
+        {
+          "id": "ev-jamtara-01",
+          "type": "document",
+          "fileName": "soil_test_card.pdf",
+          "url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500",
+          "uploadedAt": "2026-09-03"
+        }
+      ],
+      "affectedPeopleCount": 2800,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "High (Weeks)",
+      "durationMonths": 24,
+      "status": "ASSIGNED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Shambhu Mandal",
+      "submittedAt": "2026-09-03T09:00:00Z",
+      "assignedUniversityId": "univ-skmu",
+      "assignedUniversityName": "Sido Kanhu Murmu University & BAU Ranchi",
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 23,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 81,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Large-scale regional community impact (2,800 people)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Jamtara district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00280",
+      "title": "Thermal Coal Conveyor Dust Settlement on Standing Paddy and Mango Orchards",
+      "description": "Unenclosed coal conveyor belts and loading sidings in Godda disperse carbonaceous dust, forming thick black crusts on foliage and reducing crop photosynthesis by 40%.",
+      "category": "Environment",
+      "location": {
+        "district": "Godda",
+        "block": "Boarijor",
+        "villageOrWard": "Lalmatia Coal Fringe",
+        "latitude": 25.0412,
+        "longitude": 87.3512
+      },
+      "evidence": [
+        {
+          "id": "ev-godda-01",
+          "type": "image",
+          "fileName": "coal_dust_crops.jpg",
+          "url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=500",
+          "uploadedAt": "2026-09-03"
+        }
+      ],
+      "affectedPeopleCount": 4600,
+      "frequency": "Daily",
+      "urgency": "High (Weeks)",
+      "durationMonths": 30,
+      "status": "UNDER_REVIEW",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Debu Murmu",
+      "submittedAt": "2026-09-03T14:45:00Z",
+      "priority": {
+        "severityComponent": 24,
+        "populationComponent": 24,
+        "urgencyComponent": 16,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 82,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (8/10)",
+          "Large-scale regional community impact (4,600 people)",
+          "High urgency: condition degrading rapidly within weeks",
+          "Verified geo-tagged location within Godda district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00285",
+      "title": "Severe Ganges Riverbank Erosion & Habitation Loss at Rajmahal",
+      "description": "Monsoon scouring along the Ganges riverbank cuts 15 meters of alluvial bank annually, endangering 6 primary schools, ghats, and 450 residential dwellings.",
+      "category": "Disaster Management",
+      "location": {
+        "district": "Sahibganj",
+        "block": "Rajmahal",
+        "villageOrWard": "Kanjhi Riverfront Basti",
+        "latitude": 25.0512,
+        "longitude": 87.8412
+      },
+      "evidence": [
+        {
+          "id": "ev-sahibganj-01",
+          "type": "image",
+          "fileName": "river_erosion.jpg",
+          "url": "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=500",
+          "uploadedAt": "2026-09-04"
+        }
+      ],
+      "affectedPeopleCount": 7500,
+      "frequency": "Seasonal/Monsoon",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 48,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Zubair Ansari",
+      "submittedAt": "2026-09-04T10:00:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "RESEARCH",
+        "departmentName": "Water Resources Department & Inland Waterways Authority of India",
+        "notes": "High risk erosion corridor. Validated for bio-engineering vetiver geotextile armor and acoustic scouring sensors with NIT Jamshedpur.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-09-04T16:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 30,
+        "populationComponent": 25,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 93,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (10/10)",
+          "Mass community impact affecting over 5,000 residents (7,500)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Sahibganj district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    },
+    {
+      "id": "JH-2026-00290",
+      "title": "Stone Crushing Plant Silica Dust & Silicosis Hazard for Paharia Tribal Families",
+      "description": "Dense cluster of 120 opencast stone crushers in Pakur operates without wet dust-suppression curtains. High prevalence of chronic silicosis and tuberculosis among crusher workers.",
+      "category": "Healthcare",
+      "location": {
+        "district": "Pakur",
+        "block": "Malpahari",
+        "villageOrWard": "Malpahari Crusher Belt",
+        "latitude": 24.6212,
+        "longitude": 87.8212
+      },
+      "evidence": [
+        {
+          "id": "ev-pakur-01",
+          "type": "document",
+          "fileName": "silicosis_screening_report.pdf",
+          "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500",
+          "uploadedAt": "2026-09-05"
+        }
+      ],
+      "affectedPeopleCount": 5200,
+      "frequency": "Daily",
+      "urgency": "Immediate Emergency",
+      "durationMonths": 60,
+      "status": "VALIDATED",
+      "submittedBy": "user-citizen-ramesh",
+      "submitterName": "Dr. Arvind Hansda",
+      "submittedAt": "2026-09-05T08:30:00Z",
+      "validation": {
+        "decision": "VALIDATED",
+        "routedTo": "INNOVATION",
+        "departmentName": "Department of Health & Family Welfare / Mines & Geology",
+        "notes": "Critical occupational hazard. Validated for high-pressure fogging dust suppression nozzles and AI radiographic screening with AIIMS Deoghar.",
+        "validatedBy": "user-govt-amitesh",
+        "validatorName": "Dr. Amitesh Sinha, IAS",
+        "validatedAt": "2026-09-05T12:00:00Z"
+      },
+      "priority": {
+        "severityComponent": 30,
+        "populationComponent": 25,
+        "urgencyComponent": 20,
+        "geographicComponent": 13,
+        "evidenceComponent": 5,
+        "totalScore": 93,
+        "level": "CRITICAL",
+        "reasons": [
+          "High acute severity assessment score (10/10)",
+          "Mass community impact affecting over 5,000 residents (5,200)",
+          "Immediate emergency urgency: active hazard risking health, education, or critical infrastructure",
+          "Verified geo-tagged location within Pakur district boundary",
+          "Photographic evidence attached (1 attachment)"
+        ]
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-golden-flood-01",
+      "problemId": "JH-2026-00124",
+      "problemTitle": "Monsoon Inundation & Flash Floodwater Ingress at Govt Middle School Bundu",
+      "title": "Smart IoT Ultrasonic Flood Prediction & Early Warning System with Hydro-Diverter Conduits",
+      "summary": "Engineering intervention combining solar-powered LoRaWAN ultrasonic water-level telemetry with calibrated civil gravity-drainage flumes to eliminate floodwater ingress into school campus.",
+      "universityId": "univ-bit-mesra",
+      "universityName": "Birla Institute of Technology (BIT) Mesra",
+      "facultyMentorName": "Dr. Anand Kumar Mishra",
+      "facultyMentorEmail": "akmishra@bitmesra.ac.in",
+      "department": "Civil & Environmental Engineering",
+      "studentTeam": [
+        {
+          "id": "st-1",
+          "name": "Priya Kumari",
+          "email": "priya.iot@bitmesra.ac.in",
+          "department": "Civil & IoT",
+          "skills": [
+            "IoT",
+            "Hydrology",
+            "LoRaWAN"
+          ],
+          "roleInProject": "Student Team Lead & Sensor Integration"
+        },
+        {
+          "id": "st-2",
+          "name": "Rahul Oraon",
+          "email": "rahul.oraon@bitmesra.ac.in",
+          "department": "Computer Science",
+          "skills": [
+            "Backend",
+            "Cloud",
+            "AI/ML"
+          ],
+          "roleInProject": "Cloud Telemetry & Alerting API"
+        },
+        {
+          "id": "st-3",
+          "name": "Sunita Soren",
+          "email": "sunita.soren@bitmesra.ac.in",
+          "department": "Remote Sensing",
+          "skills": [
+            "GIS",
+            "Topography"
+          ],
+          "roleInProject": "Watershed Elevation Profiling"
+        }
+      ],
+      "objectives": [
+        "Deploy dual ultrasonic solar telemetry probes in upstream catchment canal",
+        "Construct 140-meter reinforced concrete bypass retention flume around school boundary",
+        "Implement solar edge gateway dispatching instant SMS/siren alerts 45 minutes ahead of cresting",
+        "Verify zero classroom flooding during peak 2026 monsoon testing"
+      ],
+      "scope": "Govt Middle School Bundu campus boundary and 800m upstream catchment tributary channel.",
+      "budgetEst": "₹3,45,000 (Sponsored by Tata Steel CSR & Innovation Grant)",
+      "timelineMonths": 4,
+      "status": "TESTING",
+      "isGoldenDemo": true,
+      "milestones": [
+        {
+          "id": "ms-1",
+          "title": "Hydrological Survey & Micro-Watershed GIS Mapping",
+          "description": "Topographic contour elevation mapping and historical rainfall runoff surge analysis.",
+          "owner": "Sunita Soren (Remote Sensing)",
+          "deadline": "2026-08-25",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "deliverables": [
+            "GIS Contour Map.pdf",
+            "Catchment Runoff Volume Simulation"
+          ],
+          "evidenceUrl": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&auto=format&fit=crop&q=80",
+          "completedAt": "2026-08-24T16:00:00Z",
+          "approvedBy": "Dr. Anand Kumar Mishra"
+        },
+        {
+          "id": "ms-2",
+          "title": "IoT Sensor Node Prototyping & Edge LoRaWAN Telemetry",
+          "description": "Fabrication of weatherproof dual ultrasonic level sensor node with solar battery charging.",
+          "owner": "Priya Kumari (IoT Lead)",
+          "deadline": "2026-09-02",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "deliverables": [
+            "Firmware v1.2 Code",
+            "LoRaWAN Edge Gateway Configuration"
+          ],
+          "evidenceUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+          "completedAt": "2026-09-01T14:30:00Z",
+          "approvedBy": "Dr. Anand Kumar Mishra"
+        },
+        {
+          "id": "ms-3",
+          "title": "Field Hardware Deployment & Stress Testing in Simulated Flash Flow",
+          "description": "Installed hardware on upstream canal bridge and tested water sensor calibration against flume flow.",
+          "owner": "Priya Kumari & Team",
+          "deadline": "2026-09-10",
+          "status": "IN_PROGRESS",
+          "progressPercent": 85,
+          "deliverables": [
+            "Sensor Calibration Logs",
+            "Flume Discharge Rate Report"
+          ]
+        },
+        {
+          "id": "ms-4",
+          "title": "Community Pilot Run & Siren Emergency Drill with School",
+          "description": "Conduct live evacuation drill with 500 students and verify cloud SMS delivery to Headmaster & BDO.",
+          "owner": "Dr. Anand Kumar Mishra",
+          "deadline": "2026-09-20",
+          "status": "NOT_STARTED",
+          "progressPercent": 0
+        },
+        {
+          "id": "ms-5",
+          "title": "State Impact Audit & Final Handover to School Management Committee",
+          "description": "Official Government Impact Verification by District Education Officer.",
+          "owner": "Dr. Amitesh Sinha (Govt)",
+          "deadline": "2026-09-30",
+          "status": "NOT_STARTED",
+          "progressPercent": 0
+        }
+      ],
+      "supportRequests": [
+        {
+          "id": "sr-1",
+          "projectId": "proj-golden-flood-01",
+          "organizationId": "ind-tata-steel",
+          "organizationName": "Tata Steel Foundation & CSR Innovation Lab",
+          "supportType": "Hardware",
+          "description": "2x Industrial Grade Ultrasonic Transducers (IP68) and 1x LoRaWAN Edge Gateway with Solar Panel kit",
+          "estimatedValue": "₹85,000",
+          "timeline": "Immediate 48 hours",
+          "status": "FULFILLED",
+          "offeredByCompany": "Tata Steel CSR",
+          "offeredByUserName": "Sanjeev Sengupta",
+          "offeredAt": "2026-08-18T10:00:00Z",
+          "notes": "Dispatched from Jamshedpur warehouse via priority CSR courier."
+        },
+        {
+          "id": "sr-2",
+          "projectId": "proj-golden-flood-01",
+          "organizationId": "ind-tata-steel",
+          "organizationName": "Tata Steel Foundation & CSR Innovation Lab",
+          "supportType": "Technical Mentorship",
+          "description": "Senior hydraulic structural engineer review for gravity flume civil design",
+          "estimatedValue": "Pro-bono CSR Engineering",
+          "timeline": "Weekly design review",
+          "status": "ACCEPTED",
+          "offeredByCompany": "Tata Steel CSR",
+          "offeredByUserName": "Sanjeev Sengupta",
+          "offeredAt": "2026-08-19T14:00:00Z"
+        }
+      ],
+      "tests": [
+        {
+          "id": "test-1",
+          "testName": "Ultrasonic Accuracy Calibration vs Manual Gauge Dip",
+          "testDate": "2026-08-28",
+          "environment": "Canal Test Rig at Bundu Culvert",
+          "expectedResult": "Measurement within ±5mm tolerance across 0-3 meter depth",
+          "actualResult": "Achieved ±2.8mm precision across 150 automated sampling pulses",
+          "passed": true,
+          "notes": "No false echoes detected from surface floating weeds."
+        },
+        {
+          "id": "test-2",
+          "testName": "Solar-Battery Endurance under Cloudburst Darkness",
+          "testDate": "2026-09-01",
+          "environment": "Zero sun indoor stress chamber",
+          "expectedResult": "Continuous transmission for 96 hours on 12V 18Ah LiFePO4 battery",
+          "actualResult": "Node operated continuously for 114 hours with 18% reserve charge remaining",
+          "passed": true,
+          "notes": "Sleep power draw measured at 1.4mA."
+        }
+      ],
+      "pilot": {
+        "id": "pilot-1",
+        "location": "Govt Middle School Bundu Campus & Culvert #4",
+        "startDate": "2026-08-25",
+        "endDate": "2026-09-25",
+        "targetUsersCount": 500,
+        "fieldConditions": "Continuous monsoon rainfall season; wet muddy ground",
+        "resultsSummary": "Sensor detected 2 upstream surge spikes and triggered alerts 48 minutes and 52 minutes ahead of cresting. Water was cleanly diverted away from classroom doorways.",
+        "issuesIdentified": [
+          "Plastic trash trapped near intake grille requires monthly wire-mesh clearing"
+        ],
+        "communityApproval": true,
+        "governmentApproval": true,
+        "approvedByOfficial": "Block Education Officer, Bundu, Ranchi"
+      },
+      "deployment": {
+        "id": "dep-1",
+        "deploymentDate": "2026-09-02",
+        "location": "Bundu Govt Middle School, Culvert #4, Bundu Block, Ranchi District",
+        "district": "Ranchi",
+        "block": "Bundu",
+        "gpsCoordinates": {
+          "lat": 23.1812,
+          "lng": 85.5872
+        },
+        "version": "v2.1-IoT-Sluice-Mesh",
+        "hardwareVersion": "JH-LoRa-Hydro v2.1 (IP68 Solar Node)",
+        "softwareVersion": "Cloud Sluice Alerting OS v1.4",
+        "activeBeneficiaries": 520,
+        "beneficiaryDemographics": "500 tribal school students, 20 faculty & staff, 150 surrounding village households",
+        "responsibleOrg": "BIT Mesra Civil Dept & Bundu School SMC / District Administration",
+        "maintenanceSchedule": "Quarterly sensor cleaning, silt desanding, and LiFePO4 battery health audit",
+        "maintenanceStatus": "OPERATIONAL",
+        "lastServicedDate": "2026-09-02T10:00:00Z",
+        "nextMaintenanceDate": "2026-12-02T10:00:00Z",
+        "evidence": [
+          {
+            "id": "dev-1",
+            "title": "Commissioning & Sluice Gate Flow Calibration Report",
+            "type": "certification",
+            "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+            "uploadedAt": "2026-09-02T08:30:00Z",
+            "uploadedBy": "Dr. Amitesh Sinha, IAS"
+          },
+          {
+            "id": "dev-2",
+            "title": "Culvert Flume Sensor Array & Solar Mast Installation Photos",
+            "type": "image",
+            "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957",
+            "uploadedAt": "2026-09-02T08:45:00Z",
+            "uploadedBy": "Prof. Alok Ranjan"
+          }
+        ],
+        "approvalStatus": "APPROVED",
+        "approvedByOfficial": "Dr. Amitesh Sinha, IAS (State Innovation Council) & Block Development Officer, Bundu",
+        "approvedAt": "2026-09-02T11:00:00Z",
+        "approvalNotes": "On-site technical inspection passed. Telemetry streams connected to State Innovation Command Dashboard.",
+        "commissioningCertUrl": "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+        "status": "ACTIVE"
+      },
+      "impactKPIs": [
+        {
+          "id": "kpi-1",
+          "kpiName": "Annual School Flood Inundation Incidents",
+          "metricCategory": "Disaster Mitigation",
+          "baseline": "12 incidents / year",
+          "baselineNumber": 12,
+          "target": "4 incidents / year (67% reduction)",
+          "targetNumber": 4,
+          "actual": "3 incidents / year",
+          "actualNumber": 3,
+          "difference": "-9 incidents / year (-75%)",
+          "improvementPercentage": 75,
+          "unit": "incidents / year",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957",
+            "https://images.unsplash.com/photo-1581092160607-ee22621dd758"
+          ],
+          "evidenceDescription": "Automated LoRa telemetry logs showing 3 high-water bypass events safely routed without school yard flooding during 85mm rainfall.",
+          "claimedBy": "BIT Mesra Innovation Team",
+          "claimedAt": "2026-09-03T08:00:00Z",
+          "claimedNotes": "Continuous automated ultrasonic gauge logs verified over 30 days of monsoon surge testing.",
+          "verificationStatus": "VERIFIED",
+          "isVerifiedByGovernment": true,
+          "verifiedAt": "2026-09-03T10:00:00Z",
+          "verifiedBy": "Dr. Amitesh Sinha, IAS",
+          "verificationRemarks": "Audited on-site by District Administration. 75% reduction in flood inundations confirmed.",
+          "checklistStatus": {
+            "evidenceUploaded": true,
+            "pilotCompleted": true,
+            "governmentVerified": true
+          }
+        },
+        {
+          "id": "kpi-2",
+          "kpiName": "Instructional School Days Saved",
+          "metricCategory": "Education Continuity",
+          "baseline": "18 lost days / year",
+          "baselineNumber": 18,
+          "target": "0 lost days",
+          "targetNumber": 0,
+          "actual": "0 lost days during pilot month",
+          "actualNumber": 0,
+          "difference": "-18 lost days (-100%)",
+          "improvementPercentage": 100,
+          "unit": "school days",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1581092160607-ee22621dd758"
+          ],
+          "evidenceDescription": "School attendance register countersigned by Headmaster Bundu Middle School.",
+          "claimedBy": "BIT Mesra Innovation Team",
+          "claimedAt": "2026-09-03T08:00:00Z",
+          "claimedNotes": "Counter-checked with State Mid-Day Meal daily student attendance portal.",
+          "verificationStatus": "VERIFIED",
+          "isVerifiedByGovernment": true,
+          "verifiedAt": "2026-09-03T10:00:00Z",
+          "verifiedBy": "Dr. Amitesh Sinha, IAS",
+          "verificationRemarks": "Certified by Block Education Officer. Zero closure days recorded.",
+          "checklistStatus": {
+            "evidenceUploaded": true,
+            "pilotCompleted": true,
+            "governmentVerified": true
+          }
+        },
+        {
+          "id": "kpi-3",
+          "kpiName": "Benefited Tribal Students & Staff",
+          "metricCategory": "Social Inclusion",
+          "baseline": "0 protected",
+          "baselineNumber": 0,
+          "target": "500 students",
+          "targetNumber": 500,
+          "actual": "520 students & staff",
+          "actualNumber": 520,
+          "difference": "+520 beneficiaries (+100%)",
+          "improvementPercentage": 100,
+          "unit": "students & teachers",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957"
+          ],
+          "evidenceDescription": "Student enrollment list and SMC resolution confirming permanent barrier operation.",
+          "claimedBy": "BIT Mesra Innovation Team",
+          "claimedAt": "2026-09-03T08:00:00Z",
+          "verificationStatus": "VERIFIED",
+          "isVerifiedByGovernment": true,
+          "verifiedAt": "2026-09-03T10:00:00Z",
+          "verifiedBy": "Dr. Amitesh Sinha, IAS",
+          "verificationRemarks": "Verified in State Beneficiary Registry.",
+          "checklistStatus": {
+            "evidenceUploaded": true,
+            "pilotCompleted": true,
+            "governmentVerified": true
+          }
+        }
+      ],
+      "citizenFeedbacks": [
+        {
+          "id": "cf-1",
+          "citizenName": "Ramesh Munda",
+          "district": "Ranchi",
+          "block": "Bundu",
+          "village": "Govt Middle School Compound, Bundu",
+          "solutionSolvedStatus": "SOLVED",
+          "rating": 5,
+          "feedbackText": "Our school compound has stayed dry for the first time in 10 years! The sirens warned the school guards before the canal overflowed, and water was diverted around the field. My daughter did not miss a single class this week.",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957"
+          ],
+          "evidenceDescription": "Photo of school entrance completely flood-free on Sep 4 during 85mm heavy downpour.",
+          "submittedAt": "2026-09-04T12:00:00Z",
+          "isOriginalSubmitter": true,
+          "isBeneficiary": true,
+          "roleOrRelation": "Original Submitter & Parent / SMC Member"
+        }
+      ],
+      "createdAt": "2026-08-16T10:00:00Z",
+      "updatedAt": "2026-09-04T15:00:00Z"
+    },
+    {
+      "id": "proj-dumka-water-01",
+      "problemId": "JH-2026-00085",
+      "problemTitle": "Severe Arsenic Contamination in Drinking Borewells of Ranishwar Block",
+      "title": "Low-Cost Nano-Adsorbent Arsenic & Fluoride Community Water Decontamination Unit",
+      "summary": "Gravity-driven community filter using activated bauxite-laterite composite medium. Removes 98% arsenic and 89% fluoride without electricity or wastewater generation.",
+      "universityId": "univ-iit-ism-dhanbad",
+      "universityName": "IIT (ISM) Dhanbad",
+      "facultyMentorName": "Prof. Sukumar Roy",
+      "facultyMentorEmail": "sukumar.env@iitism.ac.in",
+      "department": "Environmental Science & Chemical Engineering",
+      "studentTeam": [
+        {
+          "id": "st-d1",
+          "name": "Alok Kumar Verma",
+          "email": "alok.chem@iitism.ac.in",
+          "department": "Chemical Eng",
+          "skills": [
+            "Water Chemistry",
+            "Adsorption Media"
+          ],
+          "roleInProject": "Filtration Column Sizing"
+        },
+        {
+          "id": "st-d2",
+          "name": "Neha Mahato",
+          "email": "neha.env@iitism.ac.in",
+          "department": "Environmental Eng",
+          "skills": [
+            "Spectrophotometry",
+            "Field Testing"
+          ],
+          "roleInProject": "Lab Assays & Arsenic Titration"
+        }
+      ],
+      "objectives": [
+        "Synthesize 500kg nano-adsorbent laterite media in IIT ISM lab",
+        "Fabricate 12 gravity filtration columns for Ranishwar community handpumps",
+        "Train Panchayat Jal Sahiyas for weekly backwash maintenance"
+      ],
+      "scope": "Ranishwar block 14 drinking water borewell sites in Dumka.",
+      "budgetEst": "₹2,40,000 (Sponsored by CCL Ranchi CSR)",
+      "timelineMonths": 3,
+      "status": "DEPLOYED",
+      "milestones": [
+        {
+          "id": "ms-d1",
+          "title": "Adsorbent Synthesis & Lab Breakthrough",
+          "description": "Prepared composite resin matrix",
+          "owner": "Alok Verma",
+          "deadline": "2026-07-28",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "completedAt": "2026-07-27T12:00:00Z"
+        },
+        {
+          "id": "ms-d2",
+          "title": "Field Installation at Ranishwar Point #1 to #8",
+          "description": "Installed community filter towers",
+          "owner": "Neha Mahato",
+          "deadline": "2026-08-10",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "completedAt": "2026-08-09T16:00:00Z"
+        },
+        {
+          "id": "ms-d3",
+          "title": "State Water Quality Testing Certification",
+          "description": "Certified arsenic < 0.005 mg/L",
+          "owner": "Prof. Sukumar Roy",
+          "deadline": "2026-08-20",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "completedAt": "2026-08-19T10:00:00Z"
+        }
+      ],
+      "supportRequests": [
+        {
+          "id": "sr-d1",
+          "projectId": "proj-dumka-water-01",
+          "organizationName": "CCL Ranchi CSR",
+          "supportType": "Funding",
+          "description": "Seed grant for HDPE filtration column casings",
+          "estimatedValue": "₹1,50,000",
+          "timeline": "Fulfilled",
+          "status": "FULFILLED"
+        }
+      ],
+      "tests": [
+        {
+          "id": "test-d1",
+          "testName": "Arsenic Stripping Efficiency",
+          "testDate": "2026-08-12",
+          "environment": "Mohanpur Handpump 3",
+          "expectedResult": "<0.01 mg/L",
+          "actualResult": "0.003 mg/L (98% elimination)",
+          "passed": true,
+          "notes": "Field certified by PHED zonal testing kit"
+        }
+      ],
+      "pilot": {
+        "id": "pilot-d1",
+        "location": "Ranishwar Block HQ & Mohanpur Panchayat",
+        "startDate": "2026-08-01",
+        "endDate": "2026-08-20",
+        "targetUsersCount": 4200,
+        "fieldConditions": "High iron and arsenic tubewell discharge",
+        "resultsSummary": "Zero arsenic breakthrough over 120,000 liters treated water output.",
+        "issuesIdentified": [],
+        "communityApproval": true,
+        "governmentApproval": true,
+        "approvedByOfficial": "Executive Engineer, PHED Dumka"
+      },
+      "deployment": {
+        "id": "dep-d1",
+        "deploymentDate": "2026-08-22",
+        "location": "Ranishwar Block, Dumka District",
+        "district": "Dumka",
+        "block": "Ranishwar",
+        "version": "v3.0-Nano-Adsorbent-Gravity",
+        "hardwareVersion": "JH-Arsenic-Clean v3.0 (Gravity Filter Stack)",
+        "softwareVersion": "N/A (Passive Gravity Flow)",
+        "activeBeneficiaries": 4200,
+        "beneficiaryDemographics": "4,200 rural residents across 14 vulnerable borewell hamlets",
+        "responsibleOrg": "Dumka District PHED & Village Water Sanitation Committee",
+        "maintenanceSchedule": "Bi-monthly backwash & annual media replacement",
+        "maintenanceStatus": "OPERATIONAL",
+        "lastServicedDate": "2026-08-22T10:00:00Z",
+        "nextMaintenanceDate": "2026-10-22T10:00:00Z",
+        "evidence": [
+          {
+            "id": "dev-d1",
+            "title": "PHED Water Quality Testing Lab Report",
+            "type": "certification",
+            "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+            "uploadedAt": "2026-08-22T09:00:00Z",
+            "uploadedBy": "Prof. Sukumar Roy"
+          }
+        ],
+        "approvalStatus": "APPROVED",
+        "approvedByOfficial": "Executive Engineer, PHED Dumka & District Collector",
+        "approvedAt": "2026-08-24T14:00:00Z",
+        "approvalNotes": "Zero arsenic breakthrough certified across 14 handpump testing points.",
+        "commissioningCertUrl": "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+        "status": "ACTIVE"
+      },
+      "impactKPIs": [
+        {
+          "id": "kpi-d1",
+          "kpiName": "Drinking Water Arsenic Concentration",
+          "metricCategory": "Public Health",
+          "baseline": "0.082 mg/L",
+          "baselineNumber": 0.082,
+          "target": "<0.010 mg/L (WHO Limit)",
+          "targetNumber": 0.01,
+          "actual": "0.003 mg/L",
+          "actualNumber": 0.003,
+          "difference": "-0.079 mg/L (-96% toxin reduction)",
+          "improvementPercentage": 96,
+          "unit": "mg/L",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1581092160607-ee22621dd758"
+          ],
+          "evidenceDescription": "Spectrophotometric assay reports signed by PHED Zonal Lab.",
+          "claimedBy": "IIT (ISM) Dhanbad Chemical Team",
+          "claimedAt": "2026-08-24T09:00:00Z",
+          "verificationStatus": "VERIFIED",
+          "isVerifiedByGovernment": true,
+          "verifiedAt": "2026-08-25T11:00:00Z",
+          "verifiedBy": "Dr. Amitesh Sinha, IAS",
+          "verificationRemarks": "Certified by State PHED Water Testing Directorate.",
+          "checklistStatus": {
+            "evidenceUploaded": true,
+            "pilotCompleted": true,
+            "governmentVerified": true
+          }
+        },
+        {
+          "id": "kpi-d2",
+          "kpiName": "Fluoride Concentration Reduction",
+          "metricCategory": "Water Safety",
+          "baseline": "3.8 mg/L",
+          "baselineNumber": 3.8,
+          "target": "1.0 mg/L",
+          "targetNumber": 1,
+          "actual": "0.6 mg/L",
+          "actualNumber": 0.6,
+          "difference": "-3.2 mg/L (-84%)",
+          "improvementPercentage": 84,
+          "unit": "mg/L",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1581092160607-ee22621dd758"
+          ],
+          "evidenceDescription": "Field electrode fluoride sensor telemetry and lab assay sheets uploaded by research fellows.",
+          "claimedBy": "IIT (ISM) Dhanbad Environmental Eng",
+          "claimedAt": "2026-09-04T10:00:00Z",
+          "claimedNotes": "Awaiting formal District Collector sign-off for statewide verification stamp.",
+          "verificationStatus": "CLAIMED",
+          "isVerifiedByGovernment": false,
+          "checklistStatus": {
+            "evidenceUploaded": true,
+            "pilotCompleted": true,
+            "governmentVerified": false
+          }
+        },
+        {
+          "id": "kpi-d3",
+          "kpiName": "Rural Population with Clean Drinking Water",
+          "metricCategory": "Community Impact",
+          "baseline": "0 beneficiaries",
+          "baselineNumber": 0,
+          "target": "4,200 villagers",
+          "targetNumber": 4200,
+          "actual": "4,200 villagers",
+          "actualNumber": 4200,
+          "difference": "+4,200 villagers protected (+100%)",
+          "improvementPercentage": 100,
+          "unit": "people",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1581092160607-ee22621dd758"
+          ],
+          "claimedBy": "IIT (ISM) Dhanbad Team",
+          "claimedAt": "2026-08-24T09:00:00Z",
+          "verificationStatus": "VERIFIED",
+          "isVerifiedByGovernment": true,
+          "verifiedAt": "2026-08-25T11:00:00Z",
+          "verifiedBy": "Dr. Amitesh Sinha, IAS",
+          "checklistStatus": {
+            "evidenceUploaded": true,
+            "pilotCompleted": true,
+            "governmentVerified": true
+          }
+        }
+      ],
+      "citizenFeedbacks": [
+        {
+          "id": "cf-d1",
+          "citizenName": "Dr. Sunil Soren",
+          "district": "Dumka",
+          "block": "Ranishwar",
+          "village": "Mohanpur",
+          "solutionSolvedStatus": "SOLVED",
+          "rating": 5,
+          "feedbackText": "The water from Mohanpur handpump used to smell metallic and turn yellow in 10 minutes. With the IIT ISM filter tower, the water is crystal clear and completely safe.",
+          "evidenceUrls": [
+            "https://images.unsplash.com/photo-1581092160607-ee22621dd758"
+          ],
+          "evidenceDescription": "Clear test glass comparison photo from village Mohanpur community tap.",
+          "submittedAt": "2026-08-28T09:00:00Z",
+          "isOriginalSubmitter": false,
+          "isBeneficiary": true,
+          "roleOrRelation": "Local Medical Officer & Community Leader"
+        }
+      ],
+      "createdAt": "2026-07-25T10:00:00Z",
+      "updatedAt": "2026-08-26T14:00:00Z"
+    },
+    {
+      "id": "proj-khunti-cold-01",
+      "problemId": "JH-2026-00092",
+      "problemTitle": "Tomato & Vegetable Post-Harvest Spoilage Due to Lack of Decentralized Cold Storage",
+      "title": "Solar-Assisted Phase Change Material (PCM) Micro Cold Room for Farmers",
+      "summary": "5-metric-ton decentralized cold storage powered by rooftop solar PV with thermal brine PCM energy storage providing 36 hours cooling during zero sunlight.",
+      "universityId": "univ-nit-jamshedpur",
+      "universityName": "NIT Jamshedpur & BAU Ranchi",
+      "facultyMentorName": "Dr. Rameshwar Prasad",
+      "facultyMentorEmail": "rprasad.mech@nitjsr.ac.in",
+      "department": "Mechanical Engineering & AgriTech",
+      "studentTeam": [
+        {
+          "id": "st-k1",
+          "name": "Manish Hembrom",
+          "email": "manish.mech@nitjsr.ac.in",
+          "department": "Mechanical Eng",
+          "skills": [
+            "Thermodynamics",
+            "HVAC",
+            "AutoCAD"
+          ],
+          "roleInProject": "Thermal Envelope & Insulation Sizing"
+        },
+        {
+          "id": "st-k2",
+          "name": "Deepak Toppo",
+          "email": "deepak.agri@bau.ac.in",
+          "department": "BAU Horticulture",
+          "skills": [
+            "Post-Harvest Physiology",
+            "AgriTech"
+          ],
+          "roleInProject": "Crop Respiration & Humidity Optimization"
+        }
+      ],
+      "objectives": [
+        "Fabricate 5-MT insulated PUF cold storage room at Murhu Weekly Haat",
+        "Integrate 6kW solar rooftop array with eutectic salt PCM storage tanks",
+        "Develop SMS slot booking system for smallholder tomato farmers"
+      ],
+      "scope": "Murhu Haat campus, Khunti District.",
+      "budgetEst": "₹6,20,000 (State Agri Innovation Fund)",
+      "timelineMonths": 4,
+      "status": "BLOCKED",
+      "milestones": [
+        {
+          "id": "ms-k1",
+          "title": "Topographic & Thermal Load Sizing",
+          "description": "Completed thermal load calculation",
+          "owner": "Manish Hembrom",
+          "deadline": "2026-08-10",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "completedAt": "2026-08-08T15:00:00Z"
+        },
+        {
+          "id": "ms-k2",
+          "title": "Solar PV & Inverter Compressor Rig Assembly",
+          "description": "Assembly of variable frequency brushless DC compressor unit",
+          "owner": "Dr. Rameshwar Prasad",
+          "deadline": "2026-08-20",
+          "status": "BLOCKED",
+          "progressPercent": 40,
+          "comments": "DELAYED: Custom clearance and import duty exemption pending at State Commercial Taxes Dept for DC inverter compressor. Project delayed by 17 days."
+        },
+        {
+          "id": "ms-k3",
+          "title": "PCM Thermal Brine Chamber Testing",
+          "description": "36-hour cold retention stress test without grid power",
+          "owner": "Deepak Toppo",
+          "deadline": "2026-09-15",
+          "status": "NOT_STARTED",
+          "progressPercent": 0
+        }
+      ],
+      "supportRequests": [
+        {
+          "id": "sr-k1",
+          "projectId": "proj-khunti-cold-01",
+          "organizationName": "Jharkhand AgTech Accelerator",
+          "supportType": "Technical Mentorship",
+          "description": "Refrigeration cycle review",
+          "estimatedValue": "Pro-bono",
+          "timeline": "Fulfilled",
+          "status": "FULFILLED"
+        }
+      ],
+      "tests": [],
+      "impactKPIs": [
+        {
+          "id": "kpi-khunti-1",
+          "kpiName": "Tomato Post-Harvest Loss",
+          "baseline": "40% rot rate",
+          "target": "<5% rot rate",
+          "actual": "Pending Pilot",
+          "unit": "% spoilage",
+          "improvementPercentage": 88,
+          "evidenceUrls": [],
+          "claimedBy": "usr-faculty-ramesh",
+          "claimedAt": "2026-08-01T10:00:00Z",
+          "verificationStatus": "CLAIMED",
+          "isVerifiedByGovernment": false
+        }
+      ],
+      "citizenFeedbacks": [],
+      "createdAt": "2026-07-28T10:00:00Z",
+      "updatedAt": "2026-08-21T11:00:00Z"
+    },
+    {
+      "id": "proj-hazaribagh-wildlife-01",
+      "problemId": "JH-2026-00104",
+      "problemTitle": "Human-Elephant Conflict & Crop Raiding in Forest Fringe Villages",
+      "title": "AI Seismic Ground-Vibration & Thermal Vision Elephant Corridor Early Warning System",
+      "summary": "Deployment of subterranean geophone sensors and AI edge optical-thermal cameras to detect elephant herd movement 3 km away and trigger automated SMS and strobe warnings.",
+      "universityId": "univ-bit-mesra",
+      "universityName": "Birla Institute of Technology (BIT) Mesra",
+      "facultyMentorName": "Dr. Sweta Verma",
+      "facultyMentorEmail": "sverma@bitmesra.ac.in",
+      "department": "Computer Science & AI/ML and Wildlife Conservation",
+      "studentTeam": [
+        {
+          "id": "st-h1",
+          "name": "Vikram Murmu",
+          "email": "vikram.ai@bitmesra.ac.in",
+          "department": "AI/ML",
+          "skills": [
+            "Computer Vision",
+            "Edge AI",
+            "TensorFlow Lite"
+          ],
+          "roleInProject": "Thermal Vision Model Training"
+        },
+        {
+          "id": "st-h2",
+          "name": "Anjali Tirkey",
+          "email": "anjali.ece@bitmesra.ac.in",
+          "department": "Electronics",
+          "skills": [
+            "Geophones",
+            "Signal Processing"
+          ],
+          "roleInProject": "Seismic Waveform Classification"
+        }
+      ],
+      "objectives": [
+        "Deploy 8 subterranean geophone sensor pods along Churchu migration corridor",
+        "Train edge AI model on 10,000 elephant stride vibration signatures with >94% precision",
+        "Interface with Forest Range Officer dispatch console and village siren masts"
+      ],
+      "scope": "Churchu Forest Buffer, Hazaribagh District.",
+      "budgetEst": "₹4,50,000 (Forest Dept Innovation Grant)",
+      "timelineMonths": 4,
+      "status": "PROTOTYPE",
+      "milestones": [
+        {
+          "id": "ms-h1",
+          "title": "Corridor Acoustic & Seismic Soil Baseline Survey",
+          "description": "Geophone calibration in forest soil",
+          "owner": "Anjali Tirkey",
+          "deadline": "2026-08-22",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "completedAt": "2026-08-20T14:00:00Z"
+        },
+        {
+          "id": "ms-h2",
+          "title": "Edge Neural Network Firmware Optimization",
+          "description": "YOLOv8-Thermal model quantization",
+          "owner": "Vikram Murmu",
+          "deadline": "2026-09-08",
+          "status": "IN_PROGRESS",
+          "progressPercent": 75
+        },
+        {
+          "id": "ms-h3",
+          "title": "Field Trial in Buffer Zone with Forest Guards",
+          "description": "Live strobe & radio siren test",
+          "owner": "Dr. Sweta Verma",
+          "deadline": "2026-09-25",
+          "status": "NOT_STARTED",
+          "progressPercent": 0
+        }
+      ],
+      "supportRequests": [],
+      "tests": [
+        {
+          "id": "test-h1",
+          "testName": "Geophone Stride Detection at 1.5km",
+          "testDate": "2026-08-24",
+          "environment": "Churchu Buffer Forest",
+          "expectedResult": ">90% SNR on 4-ton herd walk",
+          "actualResult": "94.2% SNR achieved",
+          "passed": true,
+          "notes": "Acoustic waveform confirmed elephant footprint resonance"
+        }
+      ],
+      "impactKPIs": [
+        {
+          "id": "kpi-hazaribagh-1",
+          "kpiName": "Early Warning Notice Period for Villages",
+          "baseline": "0 minutes (Surprise ingress)",
+          "target": "45 minutes advance warning",
+          "actual": "48 minutes in simulation",
+          "unit": "minutes",
+          "improvementPercentage": 100,
+          "evidenceUrls": [],
+          "claimedBy": "usr-faculty-sweta",
+          "claimedAt": "2026-08-10T10:00:00Z",
+          "verificationStatus": "CLAIMED",
+          "isVerifiedByGovernment": false
+        }
+      ],
+      "citizenFeedbacks": [],
+      "createdAt": "2026-08-05T10:00:00Z",
+      "updatedAt": "2026-09-02T16:00:00Z"
+    },
+    {
+      "id": "proj-dhanbad-minefire-01",
+      "problemId": "JH-2026-00182",
+      "problemTitle": "Methane Gas Seepage and Underground Smouldering in Jharia Coal Fringe Habitations",
+      "title": "Autonomous Thermal UAV & Acoustic Subsurface Mine Fire Telemetry",
+      "summary": "Automated thermal imaging drones combined with borehole thermocouple arrays to map subsurface smouldering fire progression and calculate ground subsidence risk zones.",
+      "universityId": "univ-iit-ism-dhanbad",
+      "universityName": "IIT (ISM) Dhanbad",
+      "facultyMentorName": "Prof. Subhashis Mukherjee",
+      "facultyMentorEmail": "smukherjee.mining@iitism.ac.in",
+      "department": "Department of Mining Engineering & Applied Geophysics",
+      "studentTeam": [
+        {
+          "id": "st-j1",
+          "name": "Debasish Panda",
+          "email": "debasish.mine@iitism.ac.in",
+          "department": "Mining Eng",
+          "skills": [
+            "Mine Ventilation",
+            "Thermal Modeling"
+          ],
+          "roleInProject": "Subsurface Heat Transfer Simulation"
+        }
+      ],
+      "objectives": [
+        "Deploy thermal camera drone across Kujama Colliery settlement",
+        "Map underground gas fissures with 0.5-meter thermal resolution"
+      ],
+      "scope": "Jharia coalfield settlement fringe, Dhanbad.",
+      "budgetEst": "₹7,80,000 (BCCL Mine Safety Fund)",
+      "timelineMonths": 5,
+      "status": "BLOCKED",
+      "milestones": [
+        {
+          "id": "ms-j1",
+          "title": "Sensor Payload Integration on Hexacopter",
+          "description": "Thermal radiometric sensor calibration",
+          "owner": "Debasish Panda",
+          "deadline": "2026-08-15",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "completedAt": "2026-08-14T11:00:00Z"
+        },
+        {
+          "id": "ms-j2",
+          "title": "DGMS Opencast Airspace Flight Permission & Safety Trial",
+          "description": "Formal clearance from Directorate General of Mines Safety",
+          "owner": "Prof. Subhashis Mukherjee",
+          "deadline": "2026-08-28",
+          "status": "BLOCKED",
+          "progressPercent": 30,
+          "comments": "DELAYED: DGMS (Directorate General of Mines Safety) mandatory coal airspace permit pending statutory committee review. Delayed by 9 days."
+        }
+      ],
+      "supportRequests": [],
+      "tests": [],
+      "impactKPIs": [
+        {
+          "id": "kpi-dhanbad-1",
+          "kpiName": "Subsidence Risk Prediction Lead Time",
+          "baseline": "0 days (Sudden collapse)",
+          "target": "30 days advance notice",
+          "actual": "Pending Flight Trial",
+          "unit": "days",
+          "improvementPercentage": 100,
+          "evidenceUrls": [],
+          "claimedBy": "usr-faculty-subhashis",
+          "claimedAt": "2026-08-22T10:00:00Z",
+          "verificationStatus": "CLAIMED",
+          "isVerifiedByGovernment": false
+        }
+      ],
+      "citizenFeedbacks": [],
+      "createdAt": "2026-08-20T10:00:00Z",
+      "updatedAt": "2026-08-30T12:00:00Z"
+    },
+    {
+      "id": "proj-latehar-vaccine-01",
+      "problemId": "JH-2026-00201",
+      "problemTitle": "Lack of Cold Chain Transport for Remote Rural Vaccines in Latehar",
+      "title": "Active Solar-Peltier Smart Cold Carrier with Telemetry for Forest Hamlets",
+      "summary": "Lightweight (2.8kg) backpack vaccine cooler maintaining +2°C to +8°C for 14 hours using thermoelectric solid-state cooling and flexible solar panel hat.",
+      "universityId": "univ-aiims-deoghar",
+      "universityName": "AIIMS Deoghar & NIT Jamshedpur",
+      "facultyMentorName": "Dr. Sneha Paul",
+      "facultyMentorEmail": "spaul.comm@aiimsdeoghar.edu.in",
+      "department": "Community Medicine & Biomedical Instrumentation",
+      "studentTeam": [
+        {
+          "id": "st-l1",
+          "name": "Tanmay Ghosh",
+          "email": "tanmay.bmed@nitjsr.ac.in",
+          "department": "Instrumentation",
+          "skills": [
+            "Peltier Cooling",
+            "Firmware"
+          ],
+          "roleInProject": "Temperature PID Loop Controller"
+        }
+      ],
+      "objectives": [
+        "Maintain +2°C to +8°C WHO vaccine temperature envelope across 42°C ambient heat",
+        "Log GPS and temperature logs to State Health Cloud via SIM7000G module"
+      ],
+      "scope": "Mahuadanr block forest hamlets, Latehar.",
+      "budgetEst": "₹1,85,000 (ICMR Tribal Health Grant)",
+      "timelineMonths": 3,
+      "status": "TESTING",
+      "milestones": [
+        {
+          "id": "ms-l1",
+          "title": "Peltier Thermoelectric Enclosure Thermal Simulation",
+          "description": "Optimized PUF insulation with vacuum panels",
+          "owner": "Tanmay Ghosh",
+          "deadline": "2026-08-25",
+          "status": "COMPLETED",
+          "progressPercent": 100,
+          "completedAt": "2026-08-24T16:00:00Z"
+        },
+        {
+          "id": "ms-l2",
+          "title": "Hot Weather Chamber Testing at 45°C Ambient",
+          "description": "Verified 14 hours continuous +4°C stability",
+          "owner": "Dr. Sneha Paul",
+          "deadline": "2026-09-05",
+          "status": "IN_PROGRESS",
+          "progressPercent": 90
+        }
+      ],
+      "supportRequests": [],
+      "tests": [
+        {
+          "id": "test-l1",
+          "testName": "Extreme Heat Stress Test (45°C Ambient)",
+          "testDate": "2026-09-01",
+          "environment": "Thermal Lab Chamber",
+          "expectedResult": "+2°C to +8°C for 12 hours",
+          "actualResult": "Maintained +4.1°C ± 0.4°C for 14.2 hours",
+          "passed": true,
+          "notes": "Passed cold-chain ISO 9001 stability protocol"
+        }
+      ],
+      "impactKPIs": [
+        {
+          "id": "kpi-latehar-1",
+          "kpiName": "Vaccine Spoilage Rate in Remote Forest Hauls",
+          "baseline": "22% spoiled vials",
+          "target": "0% spoiled vials",
+          "actual": "0% in lab trials",
+          "unit": "% spoilage",
+          "improvementPercentage": 100,
+          "evidenceUrls": [],
+          "claimedBy": "usr-faculty-sneha",
+          "claimedAt": "2026-08-26T10:00:00Z",
+          "verificationStatus": "CLAIMED",
+          "isVerifiedByGovernment": false
+        }
+      ],
+      "citizenFeedbacks": [],
+      "createdAt": "2026-08-24T10:00:00Z",
+      "updatedAt": "2026-09-04T12:00:00Z"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "cluster-subarnarekha-01",
+      "masterProblemId": "JH-2026-00124",
+      "clusterTitle": "Subarnarekha Basin School & Rural Inundation Cluster (Bundu-Tamar-Sonahatu)",
+      "problemIds": [
+        "JH-2026-00124",
+        "JH-2026-00142",
+        "JH-2026-00168",
+        "JH-2026-00189",
+        "JH-2026-00215"
+      ],
+      "similarityScore": 91,
+      "reason": "91% semantic, geographic, and hydrological overlap: All 5 reports document monsoon stormwater ingress into rural government schools along the NH-33 Subarnarekha catchment corridor.",
+      "status": "MERGED",
+      "reviewedBy": "user-govt-amitesh",
+      "reviewedAt": "2026-08-15T11:15:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1792958415268-ms-l2",
+      "userId": "univ-aiims-deoghar",
+      "targetRole": "UNIVERSITY_ADMIN",
+      "title": "Milestone Overdue",
+      "message": "Milestone \"Hot Weather Chamber Testing at 45°C Ambient\" for project \"Active Solar-Peltier Smart Cold Carrier with Telemetry for Forest Hamlets\" is overdue.",
+      "type": "MILESTONE",
+      "read": false,
+      "referenceId": "ms-l2",
+      "createdAt": "2026-10-25T20:00:15.268Z"
+    },
+    {
+      "id": "notif-1792958415268-ms-h3",
+      "userId": "univ-bit-mesra",
+      "targetRole": "UNIVERSITY_ADMIN",
+      "title": "Milestone Overdue",
+      "message": "Milestone \"Field Trial in Buffer Zone with Forest Guards\" for project \"AI Seismic Ground-Vibration & Thermal Vision Elephant Corridor Early Warning System\" is overdue.",
+      "type": "MILESTONE",
+      "read": false,
+      "referenceId": "ms-h3",
+      "createdAt": "2026-10-25T20:00:15.268Z"
+    },
+    {
+      "id": "notif-1792958415268-ms-h2",
+      "userId": "univ-bit-mesra",
+      "targetRole": "UNIVERSITY_ADMIN",
+      "title": "Milestone Overdue",
+      "message": "Milestone \"Edge Neural Network Firmware Optimization\" for project \"AI Seismic Ground-Vibration & Thermal Vision Elephant Corridor Early Warning System\" is overdue.",
+      "type": "MILESTONE",
+      "read": false,
+      "referenceId": "ms-h2",
+      "createdAt": "2026-10-25T20:00:15.268Z"
+    },
+    {
+      "id": "notif-1792958415267-ms-5",
+      "userId": "univ-bit-mesra",
+      "targetRole": "UNIVERSITY_ADMIN",
+      "title": "Milestone Overdue",
+      "message": "Milestone \"State Impact Audit & Final Handover to School Management Committee\" for project \"Smart IoT Ultrasonic Flood Prediction & Early Warning System with Hydro-Diverter Conduits\" is overdue.",
+      "type": "MILESTONE",
+      "read": false,
+      "referenceId": "ms-5",
+      "createdAt": "2026-10-25T20:00:15.267Z"
+    },
+    {
+      "id": "notif-1792958415267-ms-4",
+      "userId": "univ-bit-mesra",
+      "targetRole": "UNIVERSITY_ADMIN",
+      "title": "Milestone Overdue",
+      "message": "Milestone \"Community Pilot Run & Siren Emergency Drill with School\" for project \"Smart IoT Ultrasonic Flood Prediction & Early Warning System with Hydro-Diverter Conduits\" is overdue.",
+      "type": "MILESTONE",
+      "read": false,
+      "referenceId": "ms-4",
+      "createdAt": "2026-10-25T20:00:15.267Z"
+    },
+    {
+      "id": "notif-1792958415266-ms-3",
+      "userId": "univ-bit-mesra",
+      "targetRole": "UNIVERSITY_ADMIN",
+      "title": "Milestone Overdue",
+      "message": "Milestone \"Field Hardware Deployment & Stress Testing in Simulated Flash Flow\" for project \"Smart IoT Ultrasonic Flood Prediction & Early Warning System with Hydro-Diverter Conduits\" is overdue.",
+      "type": "MILESTONE",
+      "read": false,
+      "referenceId": "ms-3",
+      "createdAt": "2026-10-25T20:00:15.266Z"
+    },
+    {
+      "id": "notif-1",
+      "userId": "user-govt-amitesh",
+      "targetRole": "GOVERNMENT_OFFICER",
+      "title": "New High Priority Problem: School Flood Ingress",
+      "message": "Problem JH-2026-00124 reported in Bundu, Ranchi with priority score 87/100. AI suggests INNOVATION route to BIT Mesra.",
+      "type": "VALIDATION",
+      "read": false,
+      "referenceId": "JH-2026-00124",
+      "createdAt": "2026-08-14T09:40:00Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "user-univ-anand",
+      "targetRole": "FACULTY",
+      "title": "HEI Problem Match Assigned: 91% Match Score",
+      "message": "Govt has approved and routed JH-2026-00124 (Bundu School Flood Mitigation) to BIT Mesra Civil & Remote Sensing.",
+      "type": "UNIVERSITY_MATCH",
+      "read": false,
+      "referenceId": "JH-2026-00124",
+      "createdAt": "2026-08-15T11:05:00Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "user-ind-sanjeev",
+      "targetRole": "INDUSTRY_PARTNER",
+      "title": "New Innovation Opportunity in Ranchi: Tata Steel CSR Match (91%)",
+      "message": "Project \"Smart IoT Flood Early Warning System\" requests ultrasonic sensors and technical mentorship under CSR.",
+      "type": "INDUSTRY_SUPPORT",
+      "read": false,
+      "referenceId": "proj-golden-flood-01",
+      "createdAt": "2026-08-17T09:10:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1",
+      "action": "PROBLEM_SUBMITTED",
+      "performedBy": "Ramesh Munda",
+      "role": "CITIZEN",
+      "targetObject": "Problem",
+      "objectId": "JH-2026-00124",
+      "timestamp": "2026-08-14T09:35:00Z",
+      "details": "Citizen submitted problem with 2 photo evidences and GPS coordinates in Bundu, Ranchi.",
+      "who": "Ramesh Munda (Citizen Submitter)",
+      "what": "Problem Submission",
+      "when": "2026-08-14T09:35:00Z",
+      "objectEntity": "Problem JH-2026-00124",
+      "oldValue": "N/A",
+      "newValue": "SUBMITTED",
+      "reason": "Severe annual monsoon waterlogging at Government High School Bundu inundating classrooms and blocking student attendance."
+    },
+    {
+      "id": "audit-2",
+      "action": "AI_ANALYSIS_COMPLETED",
+      "performedBy": "Gemini 3.8 Flash Engine",
+      "role": "SUPER_ADMIN",
+      "targetObject": "Problem",
+      "objectId": "JH-2026-00124",
+      "timestamp": "2026-08-14T09:37:00Z",
+      "details": "AI classified category as Education/Water, suggested INNOVATION routing and recommended BIT Mesra.",
+      "who": "Gemini 3.8 Flash (AI Triage Engine)",
+      "what": "AI Triaging & R&D Matching",
+      "when": "2026-08-14T09:37:00Z",
+      "objectEntity": "Problem JH-2026-00124",
+      "oldValue": "SUBMITTED",
+      "newValue": "AI_ANALYZED",
+      "reason": "High severity score 87/100 calculated based on 500+ affected tribal students and high flood risk probability."
+    },
+    {
+      "id": "audit-3",
+      "action": "HUMAN_GOVERNMENT_VALIDATED",
+      "performedBy": "Dr. Amitesh Sinha, IAS",
+      "role": "GOVERNMENT_OFFICER",
+      "targetObject": "Problem",
+      "objectId": "JH-2026-00124",
+      "timestamp": "2026-08-15T11:00:00Z",
+      "details": "Government validated problem at Priority 87/100 and authorized assignment to BIT Mesra.",
+      "who": "Dr. Amitesh Sinha, IAS (Government Officer)",
+      "what": "Status: UNDER_REVIEW → VALIDATED",
+      "when": "2026-08-15T11:00:00Z",
+      "objectEntity": "Problem JH-2026-00124",
+      "oldValue": "UNDER_REVIEW",
+      "newValue": "VALIDATED",
+      "reason": "Verified field photographic evidence and confirmed waterlogging urgency with Bundu Circle Officer."
+    },
+    {
+      "id": "audit-4",
+      "action": "HEI_ASSIGNMENT",
+      "performedBy": "Dr. Amitesh Sinha, IAS",
+      "role": "GOVERNMENT_OFFICER",
+      "targetObject": "Problem",
+      "objectId": "JH-2026-00124",
+      "timestamp": "2026-08-15T11:05:00Z",
+      "details": "Problem assigned to Birla Institute of Technology (BIT) Mesra Water Resources Lab.",
+      "who": "Dr. Amitesh Sinha, IAS (Government Officer)",
+      "what": "HEI R&D Assignment",
+      "when": "2026-08-15T11:05:00Z",
+      "objectEntity": "Problem JH-2026-00124",
+      "oldValue": "Unassigned",
+      "newValue": "BIT Mesra",
+      "reason": "BIT Mesra possesses specialized IoT hydrologic sensing expertise and proximity to Ranchi watershed."
+    },
+    {
+      "id": "audit-5",
+      "action": "PROJECT_PROPOSAL_SUBMITTED",
+      "performedBy": "Dr. Anand Mishra (BIT Mesra Lead)",
+      "role": "FACULTY",
+      "targetObject": "Project",
+      "objectId": "proj-golden-flood-01",
+      "timestamp": "2026-08-17T09:10:00Z",
+      "details": "Project proposal submitted: Bundu Smart IoT Drainage Sluice Gate System.",
+      "who": "Dr. Anand Mishra (BIT Mesra Faculty Mentor)",
+      "what": "R&D Proposal Submitted",
+      "when": "2026-08-17T09:10:00Z",
+      "objectEntity": "Project proj-golden-flood-01",
+      "oldValue": "DRAFT",
+      "newValue": "PROPOSAL_SUBMITTED",
+      "reason": "Submitted complete engineering blueprint, timeline, and multi-student team structure for state approval."
+    },
+    {
+      "id": "audit-6",
+      "action": "INDUSTRY_SUPPORT_ACCEPTED",
+      "performedBy": "Sanjeev Sengupta (Tata Steel CSR)",
+      "role": "INDUSTRY_PARTNER",
+      "targetObject": "Project",
+      "objectId": "proj-golden-flood-01",
+      "timestamp": "2026-08-18T10:00:00Z",
+      "details": "Tata Steel CSR fulfilled hardware request for ultrasonic transducers and edge gateway.",
+      "who": "Sanjeev Sengupta (Tata Steel CSR)",
+      "what": "CSR Funding & Hardware Pledge",
+      "when": "2026-08-18T10:00:00Z",
+      "objectEntity": "Project proj-golden-flood-01",
+      "oldValue": "UNFUNDED",
+      "newValue": "CSR_FUNDED",
+      "reason": "Tata Steel CSR grant of ₹3,45,000 sanctioned for IoT hardware and solar power infrastructure."
+    },
+    {
+      "id": "audit-7",
+      "action": "STAGE_APPROVED",
+      "performedBy": "Dr. Amitesh Sinha, IAS",
+      "role": "GOVERNMENT_OFFICER",
+      "targetObject": "Project",
+      "objectId": "proj-golden-flood-01",
+      "timestamp": "2026-08-25T14:30:00Z",
+      "details": "Government Command Center approved field pilot stress-test stage.",
+      "who": "Dr. Amitesh Sinha, IAS (Government Officer)",
+      "what": "Stage Approval: PROTOTYPE → DEPLOYED",
+      "when": "2026-08-25T14:30:00Z",
+      "objectEntity": "Project proj-golden-flood-01",
+      "oldValue": "PROTOTYPE",
+      "newValue": "DEPLOYED",
+      "reason": "Field simulation test verified 100% drainage discharge rate during simulated 80mm/hr rainfall event."
+    },
+    {
+      "id": "audit-8",
+      "action": "IMPACT_VERIFIED",
+      "performedBy": "Government Verification Board",
+      "role": "GOVERNMENT_OFFICER",
+      "targetObject": "Project",
+      "objectId": "proj-golden-flood-01",
+      "timestamp": "2026-09-02T16:00:00Z",
+      "details": "Formal impact audit completed: 0 flooded days in 2026 monsoon season, 500 students protected.",
+      "who": "Government Verification Board",
+      "what": "Impact Verification Audit Stamp",
+      "when": "2026-09-02T16:00:00Z",
+      "objectEntity": "Project proj-golden-flood-01",
+      "oldValue": "UNVERIFIED",
+      "newValue": "VERIFIED_STAMPED",
+      "reason": "On-site verification confirmed 18 school days saved and zero standing water across 4.2-acre campus."
+    }
+  ],
+  "solutionReuses": [
+    {
+      "id": "reuse-01",
+      "title": "Smart IoT Ultrasonic Flood Early Warning & Stormwater Bypass System",
+      "problemCategory": "Education",
+      "district": "Ranchi",
+      "originalProblemId": "JH-2026-00124",
+      "originalProjectId": "proj-golden-flood-01",
+      "deployedSolutionSummary": "Solar-powered dual ultrasonic river-cresting sensor node combined with rapid gravity-flow bypass retention channels. Tested to prevent classroom inundation and save 18 school instruction days per monsoon.",
+      "technologyStack": [
+        "LoRaWAN Telemetry",
+        "Ultrasonic Transducers (IP68)",
+        "LiFePO4 Solar Node",
+        "Python Cloud Alerting API",
+        "Civil Diverter Flumes"
+      ],
+      "estimatedCost": "₹3,45,000 per school cluster",
+      "developedByUniversity": "BIT Mesra (Civil & Remote Sensing)",
+      "supportedByIndustry": "Tata Steel Foundation & CSR Innovation Lab",
+      "measuredImpact": "75% reduction in flood inundation incidents; zero lost instructional days; 500 protected tribal students.",
+      "blueprintDocsUrl": "https://jharkhand-hub.gov.in/docs/blueprints/smart_flood_bypass_v2.pdf",
+      "timesReused": 4,
+      "deploymentsCount": 5
+    },
+    {
+      "id": "reuse-02",
+      "title": "Low-Cost Nano-Adsorbent Arsenic & Fluoride Community Water Filter",
+      "problemCategory": "Water",
+      "district": "Dumka",
+      "originalProblemId": "JH-2026-00085",
+      "originalProjectId": "proj-dumka-water-01",
+      "deployedSolutionSummary": "Gravity-driven community filter using activated bauxite-laterite composite medium. Removes 98% arsenic and 89% fluoride without electricity or wastewater generation.",
+      "technologyStack": [
+        "Nano-composite Adsorbent",
+        "Food-grade HDPE Tank",
+        "Local Backwash Valve"
+      ],
+      "estimatedCost": "₹48,000 per community point",
+      "developedByUniversity": "IIT (ISM) Dhanbad",
+      "supportedByIndustry": "CCL Ranchi CSR",
+      "measuredImpact": "Drinking water brought within WHO limits for 4,200 villagers; eliminated new skin keratosis incidences.",
+      "blueprintDocsUrl": "https://jharkhand-hub.gov.in/docs/blueprints/arsenic_filter_iitism.pdf",
+      "timesReused": 8,
+      "deploymentsCount": 12
+    },
+    {
+      "id": "reuse-03",
+      "title": "Solar-Assisted Phase Change Material (PCM) Micro Cold Room for Farmers",
+      "problemCategory": "Agriculture",
+      "district": "Khunti",
+      "originalProblemId": "JH-2026-00092",
+      "originalProjectId": "proj-khunti-cold-01",
+      "deployedSolutionSummary": "5-metric-ton decentralized cold storage powered by rooftop solar PV with thermal brine PCM energy storage providing 36 hours cooling during zero sunlight.",
+      "technologyStack": [
+        "PCM Thermal Energy Storage",
+        "Brushless DC Variable Inverter Compressor",
+        "Monocrystalline Solar PV",
+        "Mobile Haat Booking App"
+      ],
+      "estimatedCost": "₹6,20,000 per cluster haat",
+      "developedByUniversity": "NIT Jamshedpur & BAU Ranchi",
+      "supportedByIndustry": "Jharkhand AgTech Accelerator",
+      "measuredImpact": "Reduced tomato post-harvest spoilage from 40% to 4%; increased farmer realization by ₹8/kg.",
+      "blueprintDocsUrl": "https://jharkhand-hub.gov.in/docs/blueprints/solar_pcm_coldroom.pdf",
+      "timesReused": 6,
+      "deploymentsCount": 7
+    }
+  ]
+}

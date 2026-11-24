@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-foreground: #1a1a1a;
+  --color-muted-foreground: #64748b;
+  --radius-4xl: 2rem;
+  --radius-6xl: 3rem;
+}
+
+@layer base {
+  html, body {
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    @apply bg-[#F8F9FA] dark:bg-slate-950 text-[#1A1A1A] dark:text-slate-100;
+  }
+
+  ::selection {
+    @apply bg-black dark:bg-white text-white dark:text-black;
+  }
+}
+
+/* Bold Typography Theme Utilities */
+.tracking-ultra {
+  letter-spacing: 0.25em;
+}
+
+.tracking-eyebrow {
+  letter-spacing: 0.3em;
+}
+
+/* Ensure scroll containment inside overlays, drawers, and modal bodies */
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+/* Sleek custom scrollbars for drawers and panels */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}
